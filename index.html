@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Colegio Altamira · Primaria y Secundaria</title>
+<meta name="description" content="Colegio Altamira: educación primaria y secundaria con acompañamiento cercano, talleres y excelencia académica.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('tema');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'oscuro':'claro';document.documentElement.setAttribute('data-tema',t)}catch(e){}</script>
+</head><body>
+<header class="site-head">
+  <a class="brand" href="#inicio"><span class="brand-mark">A</span> Colegio Altamira</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menú</button>
+  <nav id="nav">
+    <a href="#nosotros">Nosotros</a><a href="#campus">Campus</a><a href="#oferta">Oferta educativa</a><a href="#admisiones">Admisiones</a>
+    <a href="#noticias">Noticias</a>    <a href="#contacto">Contacto</a>
+    <button class="theme-btn" type="button" aria-label="Cambiar a modo oscuro">🌙</button>
+    <a class="btn btn-line" href="login.php" data-login>Ingresar</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-text">
+    <h1>Cada hora del día cuenta, y en Altamira se nota.</h1>
+    <p>Primaria y secundaria con grupos reducidos, docentes que conocen a cada estudiante por su nombre y talleres que salen del aula.</p>
+    <div class="cta">
+      <a class="btn btn-bus" href="#admisiones">Solicitar admisión</a>
+      <a class="btn btn-line light" href="#contacto">Agendar visita</a>
+    </div>
+  </div>
+  <aside class="timetable" aria-label="Un día en Altamira">
+    <h2>Un día en Altamira</h2>
+    <ol>
+      <li><time>07:45</time> Bienvenida y tutoría</li>
+      <li><time>08:15</time> Comunicación y Matemática</li>
+      <li><time>10:15</time> Recreo y huerto escolar</li>
+      <li><time>10:45</time> Ciencias e inglés</li>
+      <li><time>13:00</time> Almuerzo</li>
+      <li><time>14:00</time> Taller: robótica, arte o deporte</li>
+      <li><time>15:30</time> Salida</li>
+    </ol>
+  </aside>
+</section>
+
+<section class="sec" id="nosotros">
+  <h2>Sobre nosotros</h2>
+  <div class="cols">
+    <div>
+      <h3>Nuestra historia</h3>
+      <p>Altamira nació en 1994 con tres aulas y 48 estudiantes. Hoy acompañamos a más de 900 niños y adolescentes desde un mismo proyecto educativo, de 1.º de primaria a 5.º de secundaria.</p>
+      <figure class="photo photo-inline">
+        <img src="assets/img/estudiantes.jpg" alt="Estudiantes del Colegio Altamira durante una clase" loading="lazy" width="1200" height="800">
+        <figcaption>Estudiantes de secundaria en clase</figcaption>
+      </figure>
+    </div>
+    <div class="card"><h3>Misión</h3><p>Formar estudiantes curiosos, responsables y capaces de trabajar con otros, con una base académica sólida y valores que se practican a diario.</p></div>
+    <div class="card"><h3>Visión</h3><p>Ser el colegio de referencia de la ciudad por la calidad de su enseñanza y por el bienestar de su comunidad.</p></div>
+  </div>
+</section>
+
+<section class="sec warm" id="campus">
+  <h2>Conoce el campus</h2>
+  <p class="lede">Once aulas, laboratorio de ciencias, biblioteca y espacios abiertos pensados para que aprender sea cómodo y divertido.</p>
+  <div class="gallery">
+    <figure class="photo big">
+      <img src="assets/img/campus.jpg" alt="Fachada principal del Colegio Altamira" loading="lazy" width="1200" height="786">
+      <figcaption>Fachada principal</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="assets/img/aula.jpg" alt="Aula con mobiliario escolar" loading="lazy" width="1200" height="675">
+      <figcaption>Aulas</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="assets/img/laboratorio.jpg" alt="Materiales del laboratorio de ciencias" loading="lazy" width="1200" height="800">
+      <figcaption>Laboratorio</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="assets/img/biblioteca.jpg" alt="Estantería de la biblioteca escolar" loading="lazy" width="1200" height="800">
+      <figcaption>Biblioteca</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="assets/img/deporte.jpg" alt="Canasta de básquet en la losa deportiva" loading="lazy" width="1200" height="783">
+      <figcaption>Deporte</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sec alt" id="oferta">
+  <h2>Oferta educativa</h2>
+  <div class="cols two">
+    <article class="level sun"><h3>Primaria</h3><p>1.º a 6.º grado. Aprendizaje por proyectos, lectura diaria e inglés desde primer grado.</p></article>
+    <article class="level dark"><h3>Secundaria</h3><p>1.º a 5.º año. Preparación universitaria, orientación vocacional y laboratorio de ciencias.</p></article>
+  </div>
+  <div class="cols two">
+    <div><h3>Talleres</h3><ul class="chips"><li>Robótica</li><li>Teatro</li><li>Fútbol y vóley</li><li>Música</li><li>Huerto</li><li>Ajedrez</li></ul></div>
+    <div><h3>Infraestructura</h3><ul class="chips"><li>Laboratorio de ciencias</li><li>Biblioteca</li><li>Aula de innovación</li><li>Losa deportiva</li><li>Comedor</li></ul></div>
+  </div>
+</section>
+
+<section class="sec" id="admisiones">
+  <h2>Admisiones</h2>
+  <div class="cols two">
+    <ol class="steps">
+      <li><strong>Solicita información</strong> con el formulario de contacto.</li>
+      <li><strong>Visita el colegio</strong> y conoce a la coordinación.</li>
+      <li><strong>Entrega los documentos</strong> y rinde la evaluación diagnóstica.</li>
+      <li><strong>Confirma la matrícula</strong> con la entrevista familiar.</li>
+    </ol>
+    <div class="card"><h3>Documentos requeridos</h3>
+      <ul><li>Partida de nacimiento y DNI del estudiante</li><li>Libreta de notas del año anterior</li><li>Constancia de no adeudo</li><li>DNI de los padres o apoderados</li></ul></div>
+  </div>
+</section>
+
+<section class="sec alt" id="noticias">
+  <h2>Noticias y avisos</h2>
+  <div class="cols" id="noticias-lista"><p class="muted">Cargando noticias…</p></div>
+</section>
+
+<section class="sec" id="contacto">
+  <h2>Contacto y ubicación</h2>
+  <div class="cols two">
+    <form method="post" action="contacto.php" class="form">
+      <p class="alert ok" id="msg-ok" role="status" hidden>Recibimos tu mensaje. Te escribiremos en 48 horas hábiles.</p>
+      <p class="alert" id="msg-error" role="alert" hidden>Revisa el formulario: nombre, correo válido y mensaje son obligatorios.</p>
+      <input type="text" name="web" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <label>Nombre completo<input name="nombre" required maxlength="100"></label>
+      <label>Correo electrónico<input type="email" name="email" required></label>
+      <label>Teléfono<input type="tel" name="telefono" maxlength="30"></label>
+      <label>Motivo<select name="motivo"><option>Admisión</option><option>Visita guiada</option><option>Consulta general</option></select></label>
+      <label>Mensaje<textarea name="mensaje" rows="4" required></textarea></label>
+      <button class="btn btn-bus">Enviar mensaje</button>
+    </form>
+    <div>
+      <p><strong>Dirección:</strong> Av. Los Educadores 450, Lima</p>
+      <p><strong>Teléfono:</strong> (01) 555-0140</p>
+      <p><strong>Correo:</strong> informes@altamira.edu</p>
+      <p><strong>Atención:</strong> lunes a viernes, 8:00 a. m. a 4:00 p. m.</p>
+      <iframe class="map" title="Mapa de ubicación" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-77.06%2C-12.06%2C-77.02%2C-12.03&layer=mapnik"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><span>© 2026 Colegio Altamira</span><a href="login.php" data-login>Portal de familias y docentes</a></footer>
+
+<div class="modal" id="modal-login" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <button class="modal-close" type="button" aria-label="Cerrar" data-close>✕</button>
+    <a class="brand" href="index.html"><span class="brand-mark">A</span> Colegio Altamira</a>
+    <h2 id="login-title">Ingresa a tu portal</h2>
+    <p class="muted">Alumnos, profesores, familias, personal académico y administración.</p>
+    <p class="alert" id="login-error" role="alert" hidden></p>
+    <form id="form-login" method="post" action="login.php" novalidate>
+      <input type="hidden" name="csrf" value="">
+      <label>Usuario<input type="text" name="usuario" autocomplete="username" required></label>
+      <label>Contraseña<input type="password" name="password" id="pw-modal" autocomplete="current-password" required></label>
+      <label class="check"><input type="checkbox" id="showpw-modal"> Mostrar contraseña</label>
+      <button class="btn btn-bus" type="submit">Ingresar</button>
+    </form>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body></html>
